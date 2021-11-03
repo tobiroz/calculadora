@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/679/219/597/algebra-mathematics-blackboard-wallpaper-preview.jpg);
+}
+
+f {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/890/539/769/mathematics-equations-science-3d-wallpaper-preview.jpg);
+}
+
+input {
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 10vh;
+    grid-template-columns: repeat(2, 20px);
+    grid-template-rows: minmax(100px, auto) repeat(2, 20px);
+
+    background-position-x: center;
+    
+   }
+
+   b {
+       color: crimson;
+       -webkit-text-fill-color: rgb(236, 175, 255);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color:rgb(3, 22, 110);
+    font-family: fantasy;
+background-color:#6359f2;
+border-color: #9df6b0;
+border-width: 5px;
+border-style: solid;
+   }
+
+   text {
+       color: darkturquoise;
+       -webkit-text-fill-color: rgb(236, 175, 255);
+       -webkit-text-stroke: 1px;
+       -webkit-text-stroke-color:rgb(3, 22, 110);
+       font-family: fantasy;
+   background-color:#d0ff00;
+   border-color: #9df6b0;
+   
+       
+       
+   }
+
+
+  
+
+   label {
+    
+    font-size: 53px;
+    -webkit-text-fill-color: rgb(236, 175, 255);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:rgb(3, 22, 110);
+    font-family: fantasy;
+background-color:#00ffdd;
+border-color: #9df6b0;
+border-width: 20px;
+border-style: solid;
+
+   }
+
+   button{
+    border-color: #9df6b0;
+    border-width: 20px;
+    border-style: solid;
+    
+   }
+
+   
+   t{
+    border-color: #9df6b0;
+    border-width: 20px;
+    border-style: solid;
+    position: relative;
+    top: 160px;
+   }

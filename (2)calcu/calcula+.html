@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="icon" href="calculadora.png">
+    <link rel="stylesheet" href="stilo.css">
+    
+    <center><p>
+        <b>Calculadora Suma</b>
+        <br/><br/>
+  </p>
+<text>Numero1
+      <br/>
+      <input id="Num1" type="text" />
+      <br/><br/> 
+      
+      Numero2
+      <br/>
+      <input id="Num2" type="text" />
+      <br/><br/></text>
+      
+      <input type="button" value="Calcular" onclick="pluss()" /><br/>
+       <br/><br/>
+       <div id="resultado">
+      <label id="lbResultado">EL RESULTADO ES:</label>
+    </div></center>
+  
+
+
+</head>
+<body>
+    
+    <button>
+      <a href="index.html">vuelve para atrás</a>
+    </button>
+    
+    <script type="text/javascript">
+        function pluss() 
+        {
+             
+          var Number1=parseInt(document.getElementById('Num1').value);
+          var Number2=parseInt(document.getElementById('Num2').value);
+          var resultado;
+          resultado=Number1+Number2;
+          document.getElementById('lbResultado').innerHTML = resultado           
+                  
+         
+        }
+    </script> 
+</body>
+</html>
